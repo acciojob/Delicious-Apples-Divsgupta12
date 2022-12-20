@@ -1,1 +1,123 @@
 /* your code here */
+.product{
+    background-color: rgb(45, 226, 142);
+    width: 100vw;
+    height: 100vh;  
+    position: relative;
+}
+
+.product__photo{
+    width: 20vw;
+    height: 60vh;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 330px;
+    top: 110px;
+    z-index: 1;
+}
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: -3px 2px 10px gray;
+}
+.photo-main{
+    background-color: rgb(194, 255, 81);
+    border-style: none;
+    border-radius: 5px 5px 0px 0px;
+} 
+.photo-main img{
+    position: relative;
+    left: -65px;
+}
+.controls{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo-album ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.photo-album {
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    height: auto;
+}
+
+.photo-album li{
+    display: inline;
+    border: 2px solid rgb(226, 212, 212);
+    border-radius: 4px;
+}
+.product__info{
+    width: 40vw;
+    height: 80vh;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 370px;
+    top: 60px;
+    background-color: white;
+}
+.product_content{
+    padding-left: 290px;
+    padding-top: 40px;
+}
+.title h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: rgb(87, 84, 84);
+}
+.title span{
+    color: rgb(160, 159, 159);
+    font-size: 12px;
+}
+.price{
+    margin-top: 20px;
+    color: red;
+}
+.price span{
+    font-size: 70px; 
+}
+.variant h3{
+    color: rgb(112, 112, 112) ;
+    font-size: 15px;
+}
+.variant ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.variant li{
+    display: inline;
+}
+.variant li:hover{
+    border: 2px solid gray;
+    border-radius: 4px;
+    height: auto;
+    width: auto;
+}
+.description h3{
+    color: rgb(112, 112, 112) ;
+    font-size: 15px;
+}
+.description ul{
+    padding-left: 60px;
+    color: rgb(63, 63, 63);
+}
+.addtocart button{
+    background-color: rgb(220, 58, 58);
+    width: 200px;
+    height: 45px;
+    color: white;
+    border-radius: 9px;
+}
+
